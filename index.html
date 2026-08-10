@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Lamea Hage - Cirurgiã-dentista. Cuidado odontológico radiante e integral."
+    />
+    <meta name="theme-color" content="#9f8e7d" />
+    <title>Lamea Hage | Cirurgiã-dentista</title>
+
+    <!--
+      O manual usa a fonte Filson Soft. Como ela não está disponível no Google Fonts,
+      este modelo usa Nunito Sans, que mantém a sensação leve e arredondada.
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Nunito+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="cabecalho">
+      <div class="container cabecalho__conteudo">
+        <a class="marca" href="#inicio" aria-label="Lamea Hage - página inicial">
+          <span class="marca__titulo">Lamea Hage</span>
+          <span class="marca__subtitulo">Cirurgiã-dentista</span>
+        </a>
+
+        <button
+          class="menu-botao"
+          type="button"
+          aria-expanded="false"
+          aria-controls="menu-principal"
+        >
+          <span class="visually-hidden">Abrir menu</span>
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="navegacao" id="menu-principal" aria-label="Menu principal">
+          <a href="#inicio">Início</a>
+          <a href="#sobre">A clínica</a>
+          <a href="#cuidado">Cuidado integral</a>
+          <a href="#contato">Contato</a>
+          <a class="botao botao--pequeno" href="#contato">Agendar avaliação</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="inicio">
+        <div class="container hero__grade">
+          <div class="hero__texto">
+            <p class="sobretitulo">Cuidado radiante &amp; integral</p>
+            <h1>Seu sorriso merece um olhar completo.</h1>
+            <p class="hero__descricao">
+              Uma odontologia que une excelência técnica, escuta atenta e um cuidado
+              pensado para a sua história.
+            </p>
+            <div class="hero__acoes">
+              <a class="botao" href="#contato">Quero agendar uma avaliação</a>
+              <a class="link-seta" href="#sobre">Conheça a abordagem <span aria-hidden="true">→</span></a>
+            </div>
+          </div>
+
+          <div class="hero__imagem-wrap">
+            <div class="hero__forma" aria-hidden="true"></div>
+            <img
+              class="hero__imagem"
+              src="assets/images/clinica-lamea.png"
+              alt="Consultório odontológico Lamea Hage em tons claros e acolhedores"
+            />
+            <p class="selo-imagem">Cuidado que vai além dos dentes</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="introducao" id="sobre">
+        <div class="container introducao__grade">
+          <div class="introducao__simbolo" aria-hidden="true">LH</div>
+          <div class="introducao__conteudo">
+            <p class="sobretitulo">Uma experiência acolhedora</p>
+            <h2>Odontologia também é sobre se sentir bem cuidado.</h2>
+            <p>
+              Aqui, cada atendimento começa com atenção ao que você precisa. O objetivo
+              é construir um tratamento seguro, claro e individualizado - com leveza em
+              todas as etapas.
+            </p>
+            <a class="link-seta" href="#cuidado">Entenda o cuidado integral <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="pilares" aria-labelledby="titulo-pilares">
+        <div class="container">
+          <div class="cabecalho-secao">
+            <p class="sobretitulo">O que guia cada consulta</p>
+            <h2 id="titulo-pilares">Cuidado em cada detalhe.</h2>
+          </div>
+
+          <div class="pilares__lista">
+            <article class="pilar">
+              <span class="pilar__numero">01</span>
+              <h3>Humanização</h3>
+              <p>Você é recebido com escuta, respeito e atenção à sua trajetória.</p>
+            </article>
+            <article class="pilar">
+              <span class="pilar__numero">02</span>
+              <h3>Transparência</h3>
+              <p>Decisões explicadas com clareza para você seguir com segurança.</p>
+            </article>
+            <article class="pilar">
+              <span class="pilar__numero">03</span>
+              <h3>Excelência técnica</h3>
+              <p>Planejamento cuidadoso e atenção aos detalhes do seu tratamento.</p>
+            </article>
+            <article class="pilar">
+              <span class="pilar__numero">04</span>
+              <h3>Integralidade</h3>
+              <p>Uma visão que considera saúde bucal, bem-estar e qualidade de vida.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cuidado" id="cuidado">
+        <div class="container cuidado__grade">
+          <div class="cuidado__texto">
+            <p class="sobretitulo">Um plano para você</p>
+            <h2>Tratamentos que respeitam o seu tempo.</h2>
+            <p>
+              Cada plano é construído após uma avaliação completa. Abaixo estão exemplos
+              de áreas que você pode personalizar conforme os serviços da clínica.
+            </p>
+          </div>
+
+          <div class="servicos" aria-label="Áreas de cuidado">
+            <article class="servico">
+              <span class="servico__icone" aria-hidden="true">✦</span>
+              <h3>Prevenção e acompanhamento</h3>
+              <p>Rotina de cuidado para acompanhar a saúde do seu sorriso.</p>
+            </article>
+            <article class="servico">
+              <span class="servico__icone" aria-hidden="true">✦</span>
+              <h3>Estética dental</h3>
+              <p>Soluções planejadas para valorizar a naturalidade do seu sorriso.</p>
+            </article>
+            <article class="servico">
+              <span class="servico__icone" aria-hidden="true">✦</span>
+              <h3>Reabilitação oral</h3>
+              <p>Planejamento funcional e individual para recuperar conforto e confiança.</p>
+            </article>
+            <article class="servico">
+              <span class="servico__icone" aria-hidden="true">✦</span>
+              <h3>Odontologia integral</h3>
+              <p>Uma visão completa para decisões que fazem sentido para você.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="convite" aria-labelledby="titulo-convite">
+        <div class="container convite__conteudo">
+          <p class="sobretitulo">Vamos conversar?</p>
+          <h2 id="titulo-convite">Um novo jeito de cuidar do seu sorriso começa aqui.</h2>
+          <a class="botao botao--claro" href="#contato">Agendar avaliação</a>
+        </div>
+      </section>
+
+      <section class="contato" id="contato">
+        <div class="container contato__grade">
+          <div>
+            <p class="sobretitulo">Contato</p>
+            <h2>Será um prazer receber você.</h2>
+            <p class="contato__texto">
+              Entre em contato para tirar dúvidas ou marcar sua avaliação. Antes de
+              publicar, substitua os dados abaixo pelos dados reais da clínica.
+            </p>
+          </div>
+
+          <address class="dados-contato">
+            <a href="https://wa.me/5500000000000" target="_blank" rel="noreferrer">
+              <span>WhatsApp</span>
+              <strong>(00) 00000-0000</strong>
+            </a>
+            <a href="mailto:contato@seusite.com">
+              <span>E-mail</span>
+              <strong>contato@seusite.com</strong>
+            </a>
+            <p>
+              <span>Endereço</span>
+              <strong>Rua da Clínica, 000 - Bairro<br />Sua cidade - UF</strong>
+            </p>
+            <p>
+              <span>Registro profissional</span>
+              <strong>CRO-UF 00000</strong>
+            </p>
+          </address>
+        </div>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <div class="container rodape__conteudo">
+        <a class="marca marca--rodape" href="#inicio">
+          <span class="marca__titulo">Lamea Hage</span>
+          <span class="marca__subtitulo">Cirurgiã-dentista</span>
+        </a>
+        <p>© <span id="ano-atual"></span> Lamea Hage. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
